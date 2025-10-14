@@ -1,0 +1,1823 @@
+[
+  {
+    "name": "AC/DC",
+    "birth_year": 1973,
+    "genre": "Rock",
+    "notable_works": ["Highway to Hell", "Back in Black", "Thunderstruck"],
+    "active_years": "1973-present",
+    "origin_city": "Sydney",
+    "awards": ["Rock and Roll Hall of Fame"],
+    "description": "Legendary hard rock band known for their high-energy performances"
+  },
+  {
+    "name": "Kylie Minogue",
+    "birth_year": 1968,
+    "genre": "Pop",
+    "notable_works": ["Can't Get You Out of My Head", "Locomotion", "Spinning Around"],
+    "active_years": "1987-present",
+    "origin_city": "Melbourne",
+    "awards": ["Grammy Award"],
+    "description": "Pop icon and actress with international success"
+  },
+  {
+    "name": "INXS",
+    "birth_year": 1977,
+    "genre": "Rock/New Wave",
+    "notable_works": ["Need You Tonight", "Never Tear Us Apart", "New Sensation"],
+    "active_years": "1977-2012",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Influential rock band led by the late Michael Hutchence"
+  },
+  {
+    "name": "Tame Impala",
+    "birth_year": 1988,
+    "genre": "Psychedelic Rock",
+    "notable_works": ["The Less I Know the Better", "Feels Like We Only Go Backwards", "Elephant"],
+    "active_years": "2007-present",
+    "origin_city": "Perth",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Kevin Parker's psychedelic music project with global acclaim"
+  },
+  {
+    "name": "Nick Cave",
+    "birth_year": 1957,
+    "genre": "Alternative Rock",
+    "notable_works": ["Into My Arms", "Red Right Hand", "The Mercy Seat"],
+    "active_years": "1973-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Influential songwriter and frontman of Nick Cave and the Bad Seeds"
+  },
+  {
+    "name": "Sia",
+    "birth_year": 1975,
+    "genre": "Pop",
+    "notable_works": ["Chandelier", "Elastic Heart", "Titanium"],
+    "active_years": "1997-present",
+    "origin_city": "Adelaide",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Singer-songwriter known for powerful vocals and artistic music videos"
+  },
+  {
+    "name": "Keith Urban",
+    "birth_year": 1967,
+    "genre": "Country",
+    "notable_works": ["Somebody Like You", "Blue Ain't Your Color", "The Fighter"],
+    "active_years": "1990-present",
+    "origin_city": "Whangarei (NZ)/Queensland",
+    "awards": ["Grammy Awards"],
+    "description": "Country music star with crossover appeal"
+  },
+  {
+    "name": "Troye Sivan",
+    "birth_year": 1995,
+    "genre": "Pop",
+    "notable_works": ["Youth", "My My My!", "Dance to This"],
+    "active_years": "2013-present",
+    "origin_city": "Johannesburg (SA)/Perth",
+    "awards": ["GLAAD Media Award"],
+    "description": "Pop artist and actor with a strong LGBTQ+ following"
+  },
+  {
+    "name": "5 Seconds of Summer",
+    "birth_year": 2011,
+    "genre": "Pop Rock",
+    "notable_works": ["She Looks So Perfect", "Youngblood", "Teeth"],
+    "active_years": "2011-present",
+    "origin_city": "Sydney",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Pop rock band with massive international following"
+  },
+  {
+    "name": "Flume",
+    "birth_year": 1991,
+    "genre": "Electronic",
+    "notable_works": ["Never Be Like You", "Say It", "Holdin On"],
+    "active_years": "2010-present",
+    "origin_city": "Sydney",
+    "awards": ["Grammy Award"],
+    "description": "Electronic music producer pushing boundaries of the genre"
+  },
+  {
+    "name": "Vance Joy",
+    "birth_year": 1987,
+    "genre": "Indie Folk",
+    "notable_works": ["Riptide", "Georgia", "Mess Is Mine"],
+    "active_years": "2013-present",
+    "origin_city": "Melbourne",
+    "awards": ["APRA Song of the Year"],
+    "description": "Singer-songwriter known for heartfelt indie folk music"
+  },
+  {
+    "name": "Tones and I",
+    "birth_year": 1993,
+    "genre": "Pop",
+    "notable_works": ["Dance Monkey", "Never Seen the Rain", "Fly Away"],
+    "active_years": "2017-present",
+    "origin_city": "Melbourne",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Breakout artist with record-breaking viral hit"
+  },
+  {
+    "name": "Men at Work",
+    "birth_year": 1978,
+    "genre": "Rock/New Wave",
+    "notable_works": ["Down Under", "Who Can It Be Now?", "Overkill"],
+    "active_years": "1978-1986",
+    "origin_city": "Melbourne",
+    "awards": ["Grammy Award"],
+    "description": "Iconic 80s band with quintessentially Australian sound"
+  },
+  {
+    "name": "The Seekers",
+    "birth_year": 1962,
+    "genre": "Folk Pop",
+    "notable_works": ["Georgy Girl", "I'll Never Find Another You", "The Carnival Is Over"],
+    "active_years": "1962-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Pioneering folk-pop group from the 1960s"
+  },
+  {
+    "name": "Olivia Newton-John",
+    "birth_year": 1948,
+    "genre": "Pop/Country",
+    "notable_works": ["Physical", "Hopelessly Devoted to You", "Xanadu"],
+    "active_years": "1963-2022",
+    "origin_city": "Cambridge (UK)/Melbourne",
+    "awards": ["Grammy Awards"],
+    "description": "Beloved entertainer and Grease star"
+  },
+  {
+    "name": "Crowded House",
+    "birth_year": 1985,
+    "genre": "Rock",
+    "notable_works": ["Don't Dream It's Over", "Weather with You", "Better Be Home Soon"],
+    "active_years": "1985-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Rock band with timeless melodic songwriting"
+  },
+  {
+    "name": "Midnight Oil",
+    "birth_year": 1972,
+    "genre": "Rock",
+    "notable_works": ["Beds Are Burning", "Blue Sky Mine", "Power and the Passion"],
+    "active_years": "1972-2022",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Politically charged rock band advocating for social issues"
+  },
+  {
+    "name": "The Wiggles",
+    "birth_year": 1991,
+    "genre": "Children's Music",
+    "notable_works": ["Hot Potato", "Fruit Salad", "Rock-a-Bye Your Bear"],
+    "active_years": "1991-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "World's most successful children's entertainment group"
+  },
+  {
+    "name": "Gotye",
+    "birth_year": 1980,
+    "genre": "Indie Pop",
+    "notable_works": ["Somebody That I Used to Know", "Hearts a Mess", "Eyes Wide Open"],
+    "active_years": "2001-present",
+    "origin_city": "Bruges (Belgium)/Melbourne",
+    "awards": ["Grammy Awards"],
+    "description": "Multi-instrumentalist known for innovative indie pop"
+  },
+  {
+    "name": "Cody Simpson",
+    "birth_year": 1997,
+    "genre": "Pop",
+    "notable_works": ["iYiYi", "Pretty Brown Eyes", "La Da Dee"],
+    "active_years": "2009-present",
+    "origin_city": "Gold Coast",
+    "awards": ["Teen Choice Awards"],
+    "description": "Pop singer and competitive swimmer"
+  },
+  {
+    "name": "Jessica Mauboy",
+    "birth_year": 1989,
+    "genre": "Pop/R&B",
+    "notable_works": ["Burn", "Never Be the Same", "Running Back"],
+    "active_years": "2006-present",
+    "origin_city": "Darwin",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "R&B and pop singer representing Indigenous Australian talent"
+  },
+  {
+    "name": "Delta Goodrem",
+    "birth_year": 1984,
+    "genre": "Pop",
+    "notable_works": ["Born to Try", "Lost Without You", "Innocent Eyes"],
+    "active_years": "2001-present",
+    "origin_city": "Sydney",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Pop star and television personality"
+  },
+  {
+    "name": "Savage Garden",
+    "birth_year": 1994,
+    "genre": "Pop",
+    "notable_works": ["Truly Madly Deeply", "I Want You", "To the Moon and Back"],
+    "active_years": "1994-2001",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Duo that dominated 90s pop charts worldwide"
+  },
+  {
+    "name": "Iggy Azalea",
+    "birth_year": 1990,
+    "genre": "Hip Hop",
+    "notable_works": ["Fancy", "Black Widow", "Work"],
+    "active_years": "2011-present",
+    "origin_city": "Sydney",
+    "awards": ["American Music Award"],
+    "description": "Rapper who achieved major commercial success in the US"
+  },
+  {
+    "name": "The Avalanches",
+    "birth_year": 1997,
+    "genre": "Electronic/Hip Hop",
+    "notable_works": ["Since I Left You", "Frontier Psychiatrist", "Because I'm Me"],
+    "active_years": "1997-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Sample-based electronic group with cult following"
+  },
+  {
+    "name": "Courtney Barnett",
+    "birth_year": 1987,
+    "genre": "Indie Rock",
+    "notable_works": ["Pedestrian at Best", "Avant Gardener", "Depreston"],
+    "active_years": "2011-present",
+    "origin_city": "Sydney",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Indie rock artist with witty, observational lyrics"
+  },
+  {
+    "name": "Hilltop Hoods",
+    "birth_year": 1996,
+    "genre": "Hip Hop",
+    "notable_works": ["The Nosebleed Section", "Chase That Feeling", "Cosby Sweater"],
+    "active_years": "1996-present",
+    "origin_city": "Adelaide",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Pioneering Australian hip hop group"
+  },
+  {
+    "name": "King Gizzard & the Lizard Wizard",
+    "birth_year": 2010,
+    "genre": "Psychedelic Rock",
+    "notable_works": ["Rattlesnake", "Gamma Knife", "Nuclear Fusion"],
+    "active_years": "2010-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Prolific psychedelic rock band with experimental approach"
+  },
+  {
+    "name": "Angus & Julia Stone",
+    "birth_year": 2006,
+    "genre": "Indie Folk",
+    "notable_works": ["Big Jet Plane", "Chateau", "Draw Your Swords"],
+    "active_years": "2006-present",
+    "origin_city": "Sydney",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Sibling duo creating atmospheric folk music"
+  },
+  {
+    "name": "John Farnham",
+    "birth_year": 1949,
+    "genre": "Pop/Rock",
+    "notable_works": ["You're the Voice", "Pressure Down", "Two Strong Hearts"],
+    "active_years": "1964-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Australian music legend with powerful voice"
+  },
+  {
+    "name": "Missy Higgins",
+    "birth_year": 1983,
+    "genre": "Pop/Folk",
+    "notable_works": ["Scar", "The Special Two", "Steer"],
+    "active_years": "2001-present",
+    "origin_city": "Melbourne",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Singer-songwriter known for emotional, introspective folk-pop"
+  },
+  {
+    "name": "G Flip",
+    "birth_year": 1994,
+    "genre": "Pop/Rock",
+    "notable_works": ["About You", "Drink Too Much", "Gay 4 Me"],
+    "active_years": "2018-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Multi-instrumentalist drummer and singer-songwriter with energetic pop-rock sound"
+  },
+  {
+    "name": "Paul Kelly",
+    "birth_year": 1955,
+    "genre": "Rock/Folk",
+    "notable_works": ["To Her Door", "Dumb Things", "How to Make Gravy"],
+    "active_years": "1974-present",
+    "origin_city": "Adelaide",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Legendary singer-songwriter and poet laureate of Australian music"
+  },
+  {
+    "name": "Silverchair",
+    "birth_year": 1992,
+    "genre": "Alternative Rock",
+    "notable_works": ["Tomorrow", "Freak", "Straight Lines"],
+    "active_years": "1992-2011",
+    "origin_city": "Newcastle",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Grunge and alternative rock band that achieved international success as teenagers"
+  },
+  {
+    "name": "Wolfmother",
+    "birth_year": 2000,
+    "genre": "Hard Rock",
+    "notable_works": ["Joker and the Thief", "Woman", "Dimension"],
+    "active_years": "2000-present",
+    "origin_city": "Sydney",
+    "awards": ["Grammy Award"],
+    "description": "Hard rock band with retro 70s sound"
+  },
+  {
+    "name": "Empire of the Sun",
+    "birth_year": 2007,
+    "genre": "Electronic/Pop",
+    "notable_works": ["Walking on a Dream", "Alive", "We Are the People"],
+    "active_years": "2007-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Electronic music duo known for theatrical performances"
+  },
+  {
+    "name": "Rüfüs Du Sol",
+    "birth_year": 2010,
+    "genre": "Electronic",
+    "notable_works": ["Innerbloom", "You Were Right", "No Place"],
+    "active_years": "2010-present",
+    "origin_city": "Sydney",
+    "awards": ["Grammy Award"],
+    "description": "Alternative dance group with international electronic music success"
+  },
+  {
+    "name": "Jet",
+    "birth_year": 2001,
+    "genre": "Rock",
+    "notable_works": ["Are You Gonna Be My Girl", "Cold Hard Bitch", "Look What You've Done"],
+    "active_years": "2001-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Rock band with garage rock revival sound"
+  },
+  {
+    "name": "The Veronicas",
+    "birth_year": 2004,
+    "genre": "Pop/Rock",
+    "notable_works": ["Untouched", "4ever", "You Ruin Me"],
+    "active_years": "2004-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA Awards"],
+    "description": "Twin sister pop-rock duo"
+  },
+  {
+    "name": "Powderfinger",
+    "birth_year": 1989,
+    "genre": "Alternative Rock",
+    "notable_works": ["My Happiness", "These Days", "Lost and Running"],
+    "active_years": "1989-2010",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "One of Australia's most successful rock bands"
+  },
+  {
+    "name": "Bee Gees",
+    "birth_year": 1958,
+    "genre": "Pop/Disco",
+    "notable_works": ["Stayin' Alive", "How Deep Is Your Love", "Night Fever"],
+    "active_years": "1958-2003",
+    "origin_city": "Brisbane",
+    "awards": ["Grammy Awards"],
+    "description": "Legendary disco and pop trio with global influence"
+  },
+  {
+    "name": "Rick Springfield",
+    "birth_year": 1949,
+    "genre": "Rock/Pop",
+    "notable_works": ["Jessie's Girl", "Love Somebody", "Don't Talk to Strangers"],
+    "active_years": "1969-present",
+    "origin_city": "Sydney",
+    "awards": ["Grammy Award"],
+    "description": "Rock musician and actor with international hits"
+  },
+  {
+    "name": "Natalie Imbruglia",
+    "birth_year": 1975,
+    "genre": "Pop",
+    "notable_works": ["Torn", "Shiver", "Wrong Impression"],
+    "active_years": "1997-present",
+    "origin_city": "Sydney",
+    "awards": ["BRIT Awards"],
+    "description": "Pop singer with international breakthrough hit"
+  },
+  {
+    "name": "The Living End",
+    "birth_year": 1994,
+    "genre": "Punk Rock",
+    "notable_works": ["Prisoner of Society", "White Noise", "Second Solution"],
+    "active_years": "1994-present",
+    "origin_city": "Melbourne",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Rockabilly punk band with energetic sound"
+  },
+  {
+    "name": "Kasey Chambers",
+    "birth_year": 1976,
+    "genre": "Country",
+    "notable_works": ["Not Pretty Enough", "The Captain", "Am I Not Pretty Enough"],
+    "active_years": "1992-present",
+    "origin_city": "Mount Gambier",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Country music star with crossover appeal"
+  },
+  {
+    "name": "Matt Corby",
+    "birth_year": 1990,
+    "genre": "Indie/Soul",
+    "notable_works": ["Brother", "Resolution", "Miracle Love"],
+    "active_years": "2007-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Soulful singer-songwriter with powerful vocals"
+  },
+  {
+    "name": "Boy & Bear",
+    "birth_year": 2009,
+    "genre": "Indie Folk",
+    "notable_works": ["Feeding Line", "Fall at Your Feet", "Harlequin Dream"],
+    "active_years": "2009-present",
+    "origin_city": "Sydney",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Five-piece indie folk band"
+  },
+  {
+    "name": "Bernard Fanning",
+    "birth_year": 1969,
+    "genre": "Rock",
+    "notable_works": ["Wish You Well", "Songbird", "Watch Over Me"],
+    "active_years": "1989-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA Awards"],
+    "description": "Former Powderfinger frontman with successful solo career"
+  },
+  {
+    "name": "The Cat Empire",
+    "birth_year": 1999,
+    "genre": "Jazz/Ska",
+    "notable_works": ["Two Shoes", "Hello", "Sly"],
+    "active_years": "1999-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Genre-blending band mixing jazz, ska, and funk"
+  },
+  {
+    "name": "Little River Band",
+    "birth_year": 1975,
+    "genre": "Rock",
+    "notable_works": ["Reminiscing", "Cool Change", "Help Is on Its Way"],
+    "active_years": "1975-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Soft rock band with major US success"
+  },
+  {
+    "name": "Lime Cordiale",
+    "birth_year": 2009,
+    "genre": "Indie Pop",
+    "notable_works": ["Inappropriate Behaviour", "Robbery", "Temper Temper"],
+    "active_years": "2009-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Brother duo creating upbeat indie pop"
+  },
+  {
+    "name": "Amy Shark",
+    "birth_year": 1986,
+    "genre": "Indie Pop",
+    "notable_works": ["Adore", "I Said Hi", "Mess Her Up"],
+    "active_years": "2008-present",
+    "origin_city": "Gold Coast",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Indie pop artist with emotional songwriting"
+  },
+  {
+    "name": "Skyhooks",
+    "birth_year": 1973,
+    "genre": "Rock",
+    "notable_works": ["Living in the 70's", "Horror Movie", "Ego Is Not a Dirty Word"],
+    "active_years": "1973-1990",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Glam rock band defining 1970s Australian rock"
+  },
+  {
+    "name": "The Temper Trap",
+    "birth_year": 2005,
+    "genre": "Indie Rock",
+    "notable_works": ["Sweet Disposition", "Love Lost", "Fader"],
+    "active_years": "2005-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Indie rock band with anthemic sound"
+  },
+  {
+    "name": "Spiderbait",
+    "birth_year": 1991,
+    "genre": "Alternative Rock",
+    "notable_works": ["Black Betty", "Buy Me a Pony", "Calypso"],
+    "active_years": "1991-present",
+    "origin_city": "Finley",
+    "awards": ["ARIA Awards"],
+    "description": "Alternative rock trio with punk influences"
+  },
+  {
+    "name": "Cut Copy",
+    "birth_year": 2001,
+    "genre": "Electronic",
+    "notable_works": ["Lights & Music", "Hearts on Fire", "Take Me Over"],
+    "active_years": "2001-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Electronic band blending synth-pop and dance"
+  },
+  {
+    "name": "You Am I",
+    "birth_year": 1989,
+    "genre": "Rock",
+    "notable_works": ["Purple Sneakers", "Heavy Heart", "Berlin Chair"],
+    "active_years": "1989-present",
+    "origin_city": "Sydney",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Power pop and alternative rock band"
+  },
+  {
+    "name": "Birds of Tokyo",
+    "birth_year": 2004,
+    "genre": "Alternative Rock",
+    "notable_works": ["Plans", "Lanterns", "Brace"],
+    "active_years": "2004-present",
+    "origin_city": "Perth",
+    "awards": ["ARIA Awards"],
+    "description": "Alternative rock band with atmospheric sound"
+  },
+  {
+    "name": "The Church",
+    "birth_year": 1980,
+    "genre": "Alternative Rock",
+    "notable_works": ["Under the Milky Way", "The Unguarded Moment", "Almost with You"],
+    "active_years": "1980-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Psychedelic and alternative rock pioneers"
+  },
+  {
+    "name": "DMA's",
+    "birth_year": 2012,
+    "genre": "Indie Rock",
+    "notable_works": ["Delete", "The Glow", "Silver"],
+    "active_years": "2012-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Indie rock trio with Britpop influences"
+  },
+  {
+    "name": "Dan Sultan",
+    "birth_year": 1983,
+    "genre": "Rock/Folk",
+    "notable_works": ["Kimberley Calling", "Magnetic", "Old Fitzroy"],
+    "active_years": "2006-present",
+    "origin_city": "Melbourne",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Indigenous Australian singer-songwriter"
+  },
+  {
+    "name": "Diesel",
+    "birth_year": 1959,
+    "genre": "Rock/Blues",
+    "notable_works": ["Tip of My Tongue", "Come to Me", "Man Alive"],
+    "active_years": "1980-present",
+    "origin_city": "Perth",
+    "awards": ["ARIA Awards"],
+    "description": "Blues rock guitarist and vocalist"
+  },
+  {
+    "name": "Grinspoon",
+    "birth_year": 1995,
+    "genre": "Alternative Rock",
+    "notable_works": ["Chemical Heart", "Hard Act to Follow", "Lost Control"],
+    "active_years": "1995-present",
+    "origin_city": "Lismore",
+    "awards": ["ARIA Awards"],
+    "description": "Post-grunge alternative rock band"
+  },
+  {
+    "name": "Karnivool",
+    "birth_year": 1997,
+    "genre": "Progressive Rock",
+    "notable_works": ["Themata", "New Day", "We Are"],
+    "active_years": "1997-present",
+    "origin_city": "Perth",
+    "awards": ["ARIA Awards"],
+    "description": "Progressive rock band with complex compositions"
+  },
+  {
+    "name": "PNAU",
+    "birth_year": 1999,
+    "genre": "Electronic",
+    "notable_works": ["Chameleon", "Go Bang", "Cold Heart" (with Elton John)],
+    "active_years": "1999-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Electronic music duo with funky dance sound"
+  },
+  {
+    "name": "Kate Ceberano",
+    "birth_year": 1966,
+    "genre": "Pop/Jazz",
+    "notable_works": ["Bedroom Eyes", "Pash", "Brave"],
+    "active_years": "1983-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Versatile vocalist spanning pop, jazz, and soul"
+  },
+  {
+    "name": "Magic Dirt",
+    "birth_year": 1991,
+    "genre": "Grunge",
+    "notable_works": ["Dirty Jeans", "Ice", "Vulcanella"],
+    "active_years": "1991-present",
+    "origin_city": "Geelong",
+    "awards": ["ARIA Awards"],
+    "description": "Grunge and alternative rock band"
+  },
+  {
+    "name": "Regurgitator",
+    "birth_year": 1993,
+    "genre": "Alternative Rock",
+    "notable_works": ["Polyester Girl", "I Sucked a Lot of Cock to Get Where I Am", "Black Bugs"],
+    "active_years": "1993-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA Awards"],
+    "description": "Alternative rock band with experimental approach"
+  },
+  {
+    "name": "Hunters & Collectors",
+    "birth_year": 1981,
+    "genre": "Rock",
+    "notable_works": ["Throw Your Arms Around Me", "Holy Grail", "Say Goodbye"],
+    "active_years": "1981-1998",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Rock band with horn section"
+  },
+  {
+    "name": "Cold Chisel",
+    "birth_year": 1973,
+    "genre": "Rock",
+    "notable_works": ["Khe Sanh", "Flame Trees", "Cheap Wine"],
+    "active_years": "1973-present",
+    "origin_city": "Adelaide",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Pub rock legends of Australian music"
+  },
+  {
+    "name": "Jimmy Barnes",
+    "birth_year": 1956,
+    "genre": "Rock",
+    "notable_works": ["Working Class Man", "No Second Prize", "Driving Wheels"],
+    "active_years": "1973-present",
+    "origin_city": "Adelaide",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Rock icon and former Cold Chisel frontman"
+  },
+  {
+    "name": "Divinyls",
+    "birth_year": 1980,
+    "genre": "Rock",
+    "notable_works": ["I Touch Myself", "Science Fiction", "Pleasure and Pain"],
+    "active_years": "1980-1996",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Rock band led by Chrissy Amphlett"
+  },
+  {
+    "name": "Archie Roach",
+    "birth_year": 1956,
+    "genre": "Folk",
+    "notable_works": ["Took the Children Away", "Down City Streets", "Rally Round the Drum"],
+    "active_years": "1990-2022",
+    "origin_city": "Mooroopna",
+    "awards": ["ARIA Awards"],
+    "description": "Indigenous Australian singer-songwriter and storyteller"
+  },
+  {
+    "name": "Yothu Yindi",
+    "birth_year": 1986,
+    "genre": "Rock/World",
+    "notable_works": ["Treaty", "Djapana", "Tribal Voice"],
+    "active_years": "1986-2013",
+    "origin_city": "Yirrkala",
+    "awards": ["ARIA Awards"],
+    "description": "Indigenous rock band blending traditional and modern music"
+  },
+  {
+    "name": "Christine Anu",
+    "birth_year": 1970,
+    "genre": "Pop/World",
+    "notable_works": ["My Island Home", "Party", "Wanem Time"],
+    "active_years": "1993-present",
+    "origin_city": "Cairns",
+    "awards": ["ARIA Awards"],
+    "description": "Torres Strait Islander singer and performer"
+  },
+  {
+    "name": "Geoffrey Gurrumul Yunupingu",
+    "birth_year": 1971,
+    "genre": "Folk/World",
+    "notable_works": ["Wiyathul", "Bayini", "Gurrumul History"],
+    "active_years": "1986-2017",
+    "origin_city": "Galiwin'ku",
+    "awards": ["ARIA Awards"],
+    "description": "Blind Indigenous musician singing in Yolŋu languages"
+  },
+  {
+    "name": "Baby Animals",
+    "birth_year": 1989,
+    "genre": "Hard Rock",
+    "notable_works": ["Early Warning", "One Word", "Rush You"],
+    "active_years": "1989-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Hard rock band led by Suze DeMarchi"
+  },
+  {
+    "name": "Killing Heidi",
+    "birth_year": 1996,
+    "genre": "Rock",
+    "notable_works": ["Weir", "Mascara", "Live Without It"],
+    "active_years": "1996-2006",
+    "origin_city": "Violet Town",
+    "awards": ["Multiple ARIA Awards"],
+    "description": "Rock band fronted by Ella Hooper"
+  },
+  {
+    "name": "The Screaming Jets",
+    "birth_year": 1989,
+    "genre": "Hard Rock",
+    "notable_works": ["Better", "Helping Hand", "Shivers"],
+    "active_years": "1989-present",
+    "origin_city": "Newcastle",
+    "awards": ["ARIA Awards"],
+    "description": "Hard rock band with pub rock roots"
+  },
+  {
+    "name": "The Angels",
+    "birth_year": 1974,
+    "genre": "Rock",
+    "notable_works": ["Am I Ever Gonna See Your Face Again", "No Secrets", "Take a Long Line"],
+    "active_years": "1974-present",
+    "origin_city": "Adelaide",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Hard rock band with cult following"
+  },
+  {
+    "name": "Dragon",
+    "birth_year": 1972,
+    "genre": "Rock",
+    "notable_works": ["April Sun in Cuba", "Are You Old Enough", "Rain"],
+    "active_years": "1972-present",
+    "origin_city": "Auckland (NZ)/Sydney",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Rock band with new wave influences"
+  },
+  {
+    "name": "Australian Crawl",
+    "birth_year": 1978,
+    "genre": "Rock",
+    "notable_works": ["Reckless", "Errol", "The Boys Light Up"],
+    "active_years": "1978-1986",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Surf rock band of the early 1980s"
+  },
+  {
+    "name": "Mental As Anything",
+    "birth_year": 1976,
+    "genre": "New Wave",
+    "notable_works": ["Live It Up", "Too Many Times", "If You Leave Me, Can I Come Too?"],
+    "active_years": "1976-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "New wave band with quirky pop sound"
+  },
+  {
+    "name": "Hoodoo Gurus",
+    "birth_year": 1981,
+    "genre": "Rock",
+    "notable_works": ["What's My Scene?", "I Want You Back", "Come Anytime"],
+    "active_years": "1981-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Power pop rock band"
+  },
+  {
+    "name": "Midnight Oil",
+    "birth_year": 1972,
+    "genre": "Rock",
+    "notable_works": ["Beds Are Burning", "Blue Sky Mine", "Power and the Passion"],
+    "active_years": "1972-2022",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Politically charged rock band"
+  },
+  {
+    "name": "Peter Garrett",
+    "birth_year": 1953,
+    "genre": "Rock",
+    "notable_works": ["Beds Are Burning", "Blue Sky Mine", "US Forces"],
+    "active_years": "1972-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Midnight Oil frontman and former politician"
+  },
+  {
+    "name": "Daryl Braithwaite",
+    "birth_year": 1949,
+    "genre": "Pop/Rock",
+    "notable_works": ["The Horses", "One Summer", "As the Days Go By"],
+    "active_years": "1970-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Pop-rock vocalist with enduring hits"
+  },
+  {
+    "name": "Bachelor Girl",
+    "birth_year": 1992,
+    "genre": "Pop",
+    "notable_works": ["Buses and Trains", "Treat Me Good", "Blown Away"],
+    "active_years": "1992-2002",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Pop duo with 90s hit success"
+  },
+  {
+    "name": "The Black Sorrows",
+    "birth_year": 1983,
+    "genre": "Blues/Rock",
+    "notable_works": ["Chained to the Wheel", "Harley & Rose", "Hold on to Me"],
+    "active_years": "1983-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Blues and roots rock band"
+  },
+  {
+    "name": "Mondo Rock",
+    "birth_year": 1976,
+    "genre": "Rock",
+    "notable_works": ["Come Said the Boy", "Cool World", "State of the Heart"],
+    "active_years": "1976-1991",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "New wave rock band of the 1980s"
+  },
+  {
+    "name": "Ross Wilson",
+    "birth_year": 1947,
+    "genre": "Rock",
+    "notable_works": ["Eagle Rock", "Living in the 70's", "Cool World"],
+    "active_years": "1964-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "Rock musician and producer"
+  },
+  {
+    "name": "Icehouse",
+    "birth_year": 1977,
+    "genre": "New Wave",
+    "notable_works": ["Great Southern Land", "Electric Blue", "Crazy"],
+    "active_years": "1977-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Hall of Fame"],
+    "description": "New wave and synthpop pioneers"
+  },
+  {
+    "name": "Iva Davies",
+    "birth_year": 1955,
+    "genre": "New Wave",
+    "notable_works": ["Great Southern Land", "Electric Blue", "We Can Get Together"],
+    "active_years": "1977-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Icehouse frontman and composer"
+  },
+  {
+    "name": "Jon English",
+    "birth_year": 1949,
+    "genre": "Rock/Pop",
+    "notable_works": ["Turn the Page", "Words Are Not Enough", "Hot Town"],
+    "active_years": "1971-2016",
+    "origin_city": "London (UK)/Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Rock musician and actor"
+  },
+  {
+    "name": "Russell Morris",
+    "birth_year": 1948,
+    "genre": "Rock",
+    "notable_works": ["The Real Thing", "Sweet Sweet Love", "Wings of an Eagle"],
+    "active_years": "1966-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Psychedelic rock pioneer"
+  },
+  {
+    "name": "Shannon Noll",
+    "birth_year": 1975,
+    "genre": "Pop/Rock",
+    "notable_works": ["What About Me", "Shine", "Drive"],
+    "active_years": "2003-present",
+    "origin_city": "Condobolin",
+    "awards": ["ARIA Awards"],
+    "description": "Rock and pop singer from Australian Idol"
+  },
+  {
+    "name": "Guy Sebastian",
+    "birth_year": 1981,
+    "genre": "Pop/R&B",
+    "notable_works": ["Angels Brought Me Here", "Battle Scars", "Like a Drum"],
+    "active_years": "2003-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Pop and R&B singer, first Australian Idol winner"
+  },
+  {
+    "name": "Ricki-Lee Coulter",
+    "birth_year": 1985,
+    "genre": "Pop/Dance",
+    "notable_works": ["Can't Touch It", "Do It Like That", "Crazy"],
+    "active_years": "2004-present",
+    "origin_city": "Auckland (NZ)/Gold Coast",
+    "awards": ["ARIA Awards"],
+    "description": "Dance-pop artist and television presenter"
+  },
+  {
+    "name": "The Presets",
+    "birth_year": 2003,
+    "genre": "Electronic",
+    "notable_works": ["My People", "This Boy's in Love", "Talk Like That"],
+    "active_years": "2003-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Electronic music duo with punk energy"
+  },
+  {
+    "name": "Washington",
+    "birth_year": 1986,
+    "genre": "Indie Rock",
+    "notable_works": ["Batflowers", "Lovers", "Rich Man's Blues"],
+    "active_years": "1986-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Indie rock band with soulful sound"
+  },
+  {
+    "name": "Meg Mac",
+    "birth_year": 1990,
+    "genre": "Soul/Indie",
+    "notable_works": ["Roll Up Your Sleeves", "Never Be Apart", "Low Blows"],
+    "active_years": "2014-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Soulful singer-songwriter with powerful voice"
+  },
+  {
+    "name": "Chet Faker",
+    "birth_year": 1988,
+    "genre": "Electronic/Soul",
+    "notable_works": ["Talk Is Cheap", "Gold", "1998"],
+    "active_years": "2011-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Electronic soul artist, also performs as Nick Murphy"
+  },
+  {
+    "name": "M-Phazes",
+    "birth_year": 1981,
+    "genre": "Hip Hop",
+    "notable_works": ["Good Gracious", "The Chase", "1955"],
+    "active_years": "1999-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Hip hop producer and musician"
+  },
+  {
+    "name": "Bliss n Eso",
+    "birth_year": 2000,
+    "genre": "Hip Hop",
+    "notable_works": ["Act Your Age", "House of Dreams", "Lighthouse"],
+    "active_years": "2000-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Hip hop trio with positive message"
+  },
+  {
+    "name": "Drapht",
+    "birth_year": 1982,
+    "genre": "Hip Hop",
+    "notable_works": ["Rapunzel", "Jimmy Recard", "Sing It"],
+    "active_years": "2000-present",
+    "origin_city": "Perth",
+    "awards": ["ARIA Awards"],
+    "description": "Hip hop artist from Western Australia"
+  },
+  {
+    "name": "Illy",
+    "birth_year": 1986,
+    "genre": "Hip Hop",
+    "notable_works": ["Papercuts", "Catch 22", "Tightrope"],
+    "active_years": "2009-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Hip hop artist with mainstream success"
+  },
+  {
+    "name": "Baker Boy",
+    "birth_year": 1996,
+    "genre": "Hip Hop",
+    "notable_works": ["Cloud 9", "Meow Meow", "Cool as Hell"],
+    "active_years": "2017-present",
+    "origin_city": "Arnhem Land",
+    "awards": ["ARIA Awards"],
+    "description": "Indigenous rapper performing in English and Yolŋu Matha"
+  },
+  {
+    "name": "The Bamboos",
+    "birth_year": 2000,
+    "genre": "Funk/Soul",
+    "notable_works": ["I Got Burned", "King of the Rodeo", "On the Sly"],
+    "active_years": "2000-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Funk and soul band with retro sound"
+  },
+  {
+    "name": "The Teskey Brothers",
+    "birth_year": 2008,
+    "genre": "Soul/Blues",
+    "notable_works": ["Pain and Misery", "So Caught Up", "Hold Me"],
+    "active_years": "2008-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Blues and soul band with vintage sound"
+  },
+  {
+    "name": "Hiatus Kaiyote",
+    "birth_year": 2011,
+    "genre": "Neo Soul/Jazz",
+    "notable_works": ["Nakamarra", "Breathing Underwater", "Get Sun"],
+    "active_years": "2011-present",
+    "origin_city": "Melbourne",
+    "awards": ["Grammy nominations"],
+    "description": "Future soul band with genre-defying sound"
+  },
+  {
+    "name": "Tkay Maidza",
+    "birth_year": 1995,
+    "genre": "Hip Hop/Pop",
+    "notable_works": ["Switch Lanes", "Flexin", "Shook"],
+    "active_years": "2014-present",
+    "origin_city": "Adelaide",
+    "awards": ["ARIA Awards"],
+    "description": "Hip hop and pop artist with versatile style"
+  },
+  {
+    "name": "Sampa the Great",
+    "birth_year": 1993,
+    "genre": "Hip Hop/Soul",
+    "notable_works": ["Final Form", "Freedom", "OMG"],
+    "active_years": "2015-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Zambian-Australian hip hop and neo-soul artist"
+  },
+  {
+    "name": "Genesis Owusu",
+    "birth_year": 1998,
+    "genre": "Alternative/Hip Hop",
+    "notable_works": ["Don't Need You", "Gold Chains", "The Other Black Dog"],
+    "active_years": "2017-present",
+    "origin_city": "Canberra",
+    "awards": ["ARIA Awards"],
+    "description": "Genre-blending artist mixing funk, hip hop, and rock"
+  },
+  {
+    "name": "Stella Donnelly",
+    "birth_year": 1991,
+    "genre": "Indie Folk",
+    "notable_works": ["Old Man", "Boys Will Be Boys", "Beware of the Dogs"],
+    "active_years": "2017-present",
+    "origin_city": "Perth",
+    "awards": ["ARIA Awards"],
+    "description": "Indie folk artist with witty social commentary"
+  },
+  {
+    "name": "Alex Lahey",
+    "birth_year": 1992,
+    "genre": "Indie Rock",
+    "notable_works": ["Every Day's the Weekend", "I Love You Like a Brother", "Don't Be so Hard on Yourself"],
+    "active_years": "2016-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Indie rock singer-songwriter and multi-instrumentalist"
+  },
+  {
+    "name": "Julia Jacklin",
+    "birth_year": 1990,
+    "genre": "Indie Folk",
+    "notable_works": ["Don't Let the Kids Win", "Pressure to Party", "Body"],
+    "active_years": "2016-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Indie folk artist with introspective songwriting"
+  },
+  {
+    "name": "Tash Sultana",
+    "birth_year": 1995,
+    "genre": "Psychedelic Rock",
+    "notable_works": ["Jungle", "Notion", "Mystik"],
+    "active_years": "2016-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "One-person band and loop artist"
+  },
+  {
+    "name": "Hockey Dad",
+    "birth_year": 2013,
+    "genre": "Surf Rock",
+    "notable_works": ["I Need a Woman", "Seaweed", "I Missed Out"],
+    "active_years": "2013-present",
+    "origin_city": "Wollongong",
+    "awards": ["ARIA nominations"],
+    "description": "Surf rock duo with indie garage sound"
+  },
+  {
+    "name": "Dune Rats",
+    "birth_year": 2011,
+    "genre": "Punk Rock",
+    "notable_works": ["Scott Green", "Dalai Lama Big Banana Marijuana", "6 Pack"],
+    "active_years": "2011-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA Awards"],
+    "description": "Punk rock trio with party anthems"
+  },
+  {
+    "name": "Sticky Fingers",
+    "birth_year": 2008,
+    "genre": "Reggae Rock",
+    "notable_works": ["How to Fly", "Gold Snafu", "Australia Street"],
+    "active_years": "2008-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Reggae-influenced rock band"
+  },
+  {
+    "name": "Ocean Alley",
+    "birth_year": 2011,
+    "genre": "Psychedelic Rock",
+    "notable_works": ["Confidence", "Knees", "Baby Come Back"],
+    "active_years": "2011-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Psychedelic surf rock band"
+  },
+  {
+    "name": "Ball Park Music",
+    "birth_year": 2008,
+    "genre": "Indie Rock",
+    "notable_works": ["It's Nice to Be Alive", "She Only Loves Me When I'm There", "Cherub"],
+    "active_years": "2008-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA Awards"],
+    "description": "Indie rock band with theatrical elements"
+  },
+  {
+    "name": "San Cisco",
+    "birth_year": 2009,
+    "genre": "Indie Pop",
+    "notable_works": ["Awkward", "Too Much Time Together", "Wild Things"],
+    "active_years": "2009-present",
+    "origin_city": "Perth",
+    "awards": ["ARIA nominations"],
+    "description": "Indie pop band with bright, catchy sound"
+  },
+  {
+    "name": "Violent Soho",
+    "birth_year": 1994,
+    "genre": "Grunge",
+    "notable_works": ["Covered in Chrome", "Like Soda", "Viceroy"],
+    "active_years": "1994-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA Awards"],
+    "description": "Grunge and alternative rock band"
+  },
+  {
+    "name": "Camp Cope",
+    "birth_year": 2015,
+    "genre": "Punk/Indie",
+    "notable_works": ["Lost (Season One)", "The Opener", "Jet Fuel Can't Melt Steel Beams"],
+    "active_years": "2015-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA nominations"],
+    "description": "Feminist punk trio with raw emotional sound"
+  },
+  {
+    "name": "The Grates",
+    "birth_year": 2002,
+    "genre": "Indie Rock",
+    "notable_works": ["19-20-20", "Sukkafish", "Science Is Golden"],
+    "active_years": "2002-2015",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA Awards"],
+    "description": "Indie rock trio with energetic pop sensibility"
+  },
+  {
+    "name": "The Jezabels",
+    "birth_year": 2007,
+    "genre": "Indie Rock",
+    "notable_works": ["Endless Summer", "Easy to Love", "Hurt Me"],
+    "active_years": "2007-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Indie rock band with dramatic sound"
+  },
+  {
+    "name": "Operators",
+    "birth_year": 2015,
+    "genre": "Electronic/Indie",
+    "notable_works": ["Volcano", "Cold Light", "Blue Wave"],
+    "active_years": "2015-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA nominations"],
+    "description": "Electronic indie duo with atmospheric sound"
+  },
+  {
+    "name": "Northeast Party House",
+    "birth_year": 2010,
+    "genre": "Electronic Rock",
+    "notable_works": ["The Haunted", "Calypso Beach", "For You"],
+    "active_years": "2010-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA nominations"],
+    "description": "Electronic rock band with dance floor energy"
+  },
+  {
+    "name": "Client Liaison",
+    "birth_year": 2009,
+    "genre": "Synthpop",
+    "notable_works": ["A Foreign Affair", "Feed the Rhythm", "Canberra Won't Be Calling Tonight"],
+    "active_years": "2009-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA nominations"],
+    "description": "Retro synthpop duo with 80s aesthetic"
+  },
+  {
+    "name": "Confidence Man",
+    "birth_year": 2016,
+    "genre": "Electronic/Dance",
+    "notable_works": ["Boyfriend (Repeat)", "Don't You Know I'm in a Band", "Holiday"],
+    "active_years": "2016-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA nominations"],
+    "description": "Dance music group with theatrical performances"
+  },
+  {
+    "name": "The Kid LAROI",
+    "birth_year": 2003,
+    "genre": "Hip Hop/Pop",
+    "notable_works": ["Stay", "Without You", "Go"],
+    "active_years": "2018-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Hip hop and pop rapper with global chart success"
+  },
+  {
+    "name": "Ruel",
+    "birth_year": 2002,
+    "genre": "Pop/R&B",
+    "notable_works": ["Dazed & Confused", "Painkiller", "Don't Tell Me"],
+    "active_years": "2017-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Soulful pop artist discovered as a teenager"
+  },
+  {
+    "name": "Mallrat",
+    "birth_year": 1998,
+    "genre": "Indie Pop",
+    "notable_works": ["Groceries", "Charlie", "Rockstar"],
+    "active_years": "2015-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA nominations"],
+    "description": "Bedroom pop artist with dreamy electronic sound"
+  },
+  {
+    "name": "Skegss",
+    "birth_year": 2014,
+    "genre": "Surf Rock",
+    "notable_works": ["L.S.D.", "Up in the Clouds", "Fantasising"],
+    "active_years": "2014-present",
+    "origin_city": "Byron Bay",
+    "awards": ["ARIA Awards"],
+    "description": "Surf rock trio with laid-back party vibes"
+  },
+  {
+    "name": "Onefour",
+    "birth_year": 2014,
+    "genre": "Hip Hop/Drill",
+    "notable_works": ["The Message", "Spot the Difference", "In the Beginning"],
+    "active_years": "2014-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA nominations"],
+    "description": "Australian drill rap group from Western Sydney"
+  },
+  {
+    "name": "Budjerah",
+    "birth_year": 2002,
+    "genre": "Soul/R&B",
+    "notable_works": ["Missing You", "Talk", "Higher"],
+    "active_years": "2020-present",
+    "origin_city": "Fingal Head",
+    "awards": ["ARIA Awards"],
+    "description": "Indigenous soul singer with powerful vocals"
+  },
+  {
+    "name": "Dean Lewis",
+    "birth_year": 1987,
+    "genre": "Pop",
+    "notable_works": ["Be Alright", "Waves", "7 Minutes"],
+    "active_years": "2016-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Pop singer-songwriter with emotional ballads"
+  },
+  {
+    "name": "Ruby Fields",
+    "birth_year": 1996,
+    "genre": "Indie Rock",
+    "notable_works": ["Dinosaurs", "I Want", "Ritalin"],
+    "active_years": "2017-present",
+    "origin_city": "Cronulla",
+    "awards": ["ARIA nominations"],
+    "description": "Indie rock artist with raw, honest songwriting"
+  },
+  {
+    "name": "BENEE",
+    "birth_year": 2000,
+    "genre": "Indie Pop",
+    "notable_works": ["Supalonely", "Glitter", "Find an Island"],
+    "active_years": "2018-present",
+    "origin_city": "Auckland (NZ)/Australia",
+    "awards": ["ARIA nominations"],
+    "description": "Quirky indie pop artist with viral success"
+  },
+  {
+    "name": "Peking Duk",
+    "birth_year": 2010,
+    "genre": "Electronic",
+    "notable_works": ["High", "Stranger", "Say My Name"],
+    "active_years": "2010-present",
+    "origin_city": "Canberra",
+    "awards": ["ARIA Awards"],
+    "description": "Electronic music duo with festival-ready bangers"
+  },
+  {
+    "name": "AB Original",
+    "birth_year": 2016,
+    "genre": "Hip Hop",
+    "notable_works": ["January 26", "2 Black 2 Strong", "Reclaim Australia"],
+    "active_years": "2016-2019",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Indigenous hip hop duo with political message"
+  },
+  {
+    "name": "Briggs",
+    "birth_year": 1986,
+    "genre": "Hip Hop",
+    "notable_works": ["The Children Came Back", "Bad Apples", "Golden Era"],
+    "active_years": "2009-present",
+    "origin_city": "Shepparton",
+    "awards": ["ARIA Awards"],
+    "description": "Indigenous rapper and activist"
+  },
+  {
+    "name": "J-Milla",
+    "birth_year": 1985,
+    "genre": "Hip Hop",
+    "notable_works": ["Catch Me If You Can", "Soldier", "Welcome to My World"],
+    "active_years": "2010-present",
+    "origin_city": "Darwin",
+    "awards": ["Northern Territory Music Awards"],
+    "description": "Indigenous hip hop artist from Darwin"
+  },
+  {
+    "name": "Barkaa",
+    "birth_year": 1994,
+    "genre": "Hip Hop",
+    "notable_works": ["Blak Matriarchy", "For My Elders", "King Brown"],
+    "active_years": "2020-present",
+    "origin_city": "Sydney",
+    "awards": ["Music Victoria Awards"],
+    "description": "Indigenous female rapper and activist"
+  },
+  {
+    "name": "Adrian Eagle",
+    "birth_year": 1994,
+    "genre": "Soul/Hip Hop",
+    "notable_works": ["A.O.K", "17 Again", "Nunna This"],
+    "active_years": "2017-present",
+    "origin_city": "Adelaide",
+    "awards": ["ARIA nominations"],
+    "description": "Soulful Indigenous artist blending R&B and hip hop"
+  },
+  {
+    "name": "Manu Crooks",
+    "birth_year": 1999,
+    "genre": "Hip Hop",
+    "notable_works": ["Day Ones", "Suited Up", "Walk With Me"],
+    "active_years": "2016-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA nominations"],
+    "description": "Hip hop artist from Western Sydney"
+  },
+  {
+    "name": "Kwame",
+    "birth_year": 1998,
+    "genre": "Hip Hop/R&B",
+    "notable_works": ["Swish", "Wow", "Does It"],
+    "active_years": "2018-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA nominations"],
+    "description": "Rapper and producer with smooth R&B influences"
+  },
+  {
+    "name": "KIRKLANDD",
+    "birth_year": 1998,
+    "genre": "R&B/Soul",
+    "notable_works": ["Say You Won't Let Go", "Overdue", "Wasteman"],
+    "active_years": "2018-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA nominations"],
+    "description": "R&B artist with contemporary soul sound"
+  },
+  {
+    "name": "Tasman Keith",
+    "birth_year": 1997,
+    "genre": "Hip Hop",
+    "notable_works": ["To Whom It May Concern", "Mission Famous", "Reparations"],
+    "active_years": "2018-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA nominations"],
+    "description": "Hip hop artist and producer"
+  },
+  {
+    "name": "JessB",
+    "birth_year": 1995,
+    "genre": "Hip Hop",
+    "notable_works": ["Bullseye", "Set It Off", "Venom"],
+    "active_years": "2017-present",
+    "origin_city": "Auckland (NZ)/Australia",
+    "awards": ["Pacific Music Awards"],
+    "description": "New Zealand rapper with Australian following"
+  },
+  {
+    "name": "Arno Faraji",
+    "birth_year": 1997,
+    "genre": "Soul/R&B",
+    "notable_works": ["Honest", "Haze", "Nobody Else"],
+    "active_years": "2019-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA nominations"],
+    "description": "Soulful singer-songwriter"
+  },
+  {
+    "name": "Bene",
+    "birth_year": 1999,
+    "genre": "Indie Pop",
+    "notable_works": ["Soaked", "Tough Guy", "Weightless"],
+    "active_years": "2017-present",
+    "origin_city": "Auckland (NZ)/Australia",
+    "awards": ["NZ Music Awards"],
+    "description": "Indie pop artist with electronic elements"
+  },
+  {
+    "name": "Teen Jesus and the Jean Teasers",
+    "birth_year": 2015,
+    "genre": "Punk/Indie",
+    "notable_works": ["I Love You", "Never Gonna Be The Same", "Denim Obsession"],
+    "active_years": "2015-present",
+    "origin_city": "Canberra",
+    "awards": ["ARIA nominations"],
+    "description": "Punk indie rock band with energetic sound"
+  },
+  {
+    "name": "Spacey Jane",
+    "birth_year": 2016,
+    "genre": "Indie Rock",
+    "notable_works": ["Booster Seat", "Feeding the Family", "Lots of Nothing"],
+    "active_years": "2016-present",
+    "origin_city": "Perth",
+    "awards": ["ARIA Awards"],
+    "description": "Indie rock band with melodic guitar-driven sound"
+  },
+  {
+    "name": "Stand Atlantic",
+    "birth_year": 2012,
+    "genre": "Pop Punk",
+    "notable_works": ["Lavender Bones", "Hate Me (Sometimes)", "Shh!"],
+    "active_years": "2012-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA nominations"],
+    "description": "Pop punk band with modern edge"
+  },
+  {
+    "name": "Trophy Eyes",
+    "birth_year": 2013,
+    "genre": "Punk/Alternative",
+    "notable_works": ["Hurt", "You Can Count on Me", "A Cotton Candy Sky"],
+    "active_years": "2013-present",
+    "origin_city": "Newcastle",
+    "awards": ["ARIA nominations"],
+    "description": "Punk rock band with emotional intensity"
+  },
+  {
+    "name": "Slowly Slowly",
+    "birth_year": 2015,
+    "genre": "Indie Rock",
+    "notable_works": ["Jellyfish", "Blueprint", "Ten Leaf Clover"],
+    "active_years": "2015-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA nominations"],
+    "description": "Indie rock band with introspective lyrics"
+  },
+  {
+    "name": "Between You & Me",
+    "birth_year": 2015,
+    "genre": "Pop Punk",
+    "notable_works": ["Dakota", "Overthinking", "Move On"],
+    "active_years": "2015-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA nominations"],
+    "description": "Pop punk quintet with catchy hooks"
+  },
+  {
+    "name": "RAT!hammock",
+    "birth_year": 2013,
+    "genre": "Indie Rock",
+    "notable_works": ["Saturday Night Medley", "Fake It", "I Think I Heard You"],
+    "active_years": "2013-present",
+    "origin_city": "Adelaide",
+    "awards": ["ARIA nominations"],
+    "description": "Indie rock band with raw energy"
+  },
+  {
+    "name": "Teenage Joans",
+    "birth_year": 2018,
+    "genre": "Punk/Grunge",
+    "notable_works": ["Something About Being Sixteen", "Taste of Me", "Three Leaf Clover"],
+    "active_years": "2018-present",
+    "origin_city": "Adelaide",
+    "awards": ["SA Music Awards"],
+    "description": "Young punk duo with grunge influences"
+  },
+  {
+    "name": "Dear Seattle",
+    "birth_year": 2013,
+    "genre": "Alternative Rock",
+    "notable_works": ["Daytime TV", "Feel the Weight", "Maybe"],
+    "active_years": "2013-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA nominations"],
+    "description": "Alternative rock band with emotional depth"
+  },
+  {
+    "name": "Totty",
+    "birth_year": 2018,
+    "genre": "Indie Pop",
+    "notable_works": ["Lemonface", "Pockets", "Slip"],
+    "active_years": "2018-present",
+    "origin_city": "Melbourne",
+    "awards": ["Triple J Unearthed"],
+    "description": "Indie pop artist with bedroom pop aesthetic"
+  },
+  {
+    "name": "Sly Withers",
+    "birth_year": 2013,
+    "genre": "Alternative Rock",
+    "notable_works": ["Breakfast", "Clarkson", "Explode Into View"],
+    "active_years": "2013-present",
+    "origin_city": "Perth",
+    "awards": ["WAM Awards"],
+    "description": "Alternative rock band with emo influences"
+  },
+  {
+    "name": "West Thebarton",
+    "birth_year": 2013,
+    "genre": "Rock",
+    "notable_works": ["Moving Out", "Stuck", "Goodbye"],
+    "active_years": "2013-2022",
+    "origin_city": "Adelaide",
+    "awards": ["SA Music Awards"],
+    "description": "Rock band with gritty pub rock sound"
+  },
+  {
+    "name": "Boo Seeka",
+    "birth_year": 1990,
+    "genre": "Electronic/Indie",
+    "notable_works": ["Kingdom Leader", "Deception Bay", "Oh My"],
+    "active_years": "2015-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA nominations"],
+    "description": "Electronic indie artist with emotional songwriting"
+  },
+  {
+    "name": "Thelma Plum",
+    "birth_year": 1994,
+    "genre": "Indie Pop",
+    "notable_works": ["Better in Blak", "Clumsy Love", "Homecoming Queen"],
+    "active_years": "2012-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA Awards"],
+    "description": "Indigenous indie pop singer-songwriter"
+  },
+  {
+    "name": "Emily Wurramara",
+    "birth_year": 1993,
+    "genre": "Folk/Soul",
+    "notable_works": ["Black Smoke", "Ngarrukwu", "Cruisin"],
+    "active_years": "2016-present",
+    "origin_city": "Groote Eylandt",
+    "awards": ["ARIA Awards"],
+    "description": "Indigenous singer-songwriter with soulful folk sound"
+  },
+  {
+    "name": "Taylor Henderson",
+    "birth_year": 1993,
+    "genre": "Pop",
+    "notable_works": ["Borrow My Heart", "When You Were Mine", "Burnt Letters"],
+    "active_years": "2013-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Pop singer from The Voice Australia"
+  },
+  {
+    "name": "Dami Im",
+    "birth_year": 1988,
+    "genre": "Pop",
+    "notable_works": ["Sound of Silence", "Alive", "Super Love"],
+    "active_years": "2012-present",
+    "origin_city": "Seoul (Korea)/Brisbane",
+    "awards": ["ARIA Awards"],
+    "description": "Pop powerhouse and Eurovision performer"
+  },
+  {
+    "name": "Cyrus Villanueva",
+    "birth_year": 1992,
+    "genre": "Pop/Soul",
+    "notable_works": ["Stone", "Stardust", "Wolf"],
+    "active_years": "2015-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA nominations"],
+    "description": "Soulful pop vocalist from X Factor"
+  },
+  {
+    "name": "Montaigne",
+    "birth_year": 1995,
+    "genre": "Art Pop",
+    "notable_works": ["Technicolour", "Don't Break Me", "Because I Love You"],
+    "active_years": "2014-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA Awards"],
+    "description": "Art pop artist with theatrical vocal style"
+  },
+  {
+    "name": "Jaguar Jonze",
+    "birth_year": 1993,
+    "genre": "Alternative/Electronic",
+    "notable_works": ["You Got Left Behind", "Rabbit Hole", "Murder"],
+    "active_years": "2017-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA nominations"],
+    "description": "Alternative artist with dark electronic pop"
+  },
+  {
+    "name": "Wafia",
+    "birth_year": 1993,
+    "genre": "R&B/Pop",
+    "notable_works": ["Bodies", "I'm Good", "Heartburn"],
+    "active_years": "2015-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA nominations"],
+    "description": "R&B and pop singer-songwriter"
+  },
+  {
+    "name": "Nyxen",
+    "birth_year": 1998,
+    "genre": "Electronic/Pop",
+    "notable_works": ["Runaway", "Cold Blooded", "Hurt Me"],
+    "active_years": "2018-present",
+    "origin_city": "Sydney",
+    "awards": ["Triple J Unearthed"],
+    "description": "Electronic pop artist with dark atmospheric sound"
+  },
+  {
+    "name": "Gretta Ray",
+    "birth_year": 1998,
+    "genre": "Indie Pop",
+    "notable_works": ["Drive", "Passion", "Bigger Than Me"],
+    "active_years": "2016-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA Awards"],
+    "description": "Singer-songwriter with emotive indie pop"
+  },
+  {
+    "name": "Georgia Maq",
+    "birth_year": 1993,
+    "genre": "Indie Rock",
+    "notable_works": ["Pleaser", "Supposed to Say", "Anxiety Song"],
+    "active_years": "2019-present",
+    "origin_city": "Melbourne",
+    "awards": ["Music Victoria Awards"],
+    "description": "Camp Cope member with solo indie rock project"
+  },
+  {
+    "name": "Eves Karydas",
+    "birth_year": 1994,
+    "genre": "Pop",
+    "notable_works": ["Further Than the Planes Fly", "Couch", "Honest"],
+    "active_years": "2012-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA nominations"],
+    "description": "Pop artist formerly known as Eves the Behavior"
+  },
+  {
+    "name": "Jack River",
+    "birth_year": 1991,
+    "genre": "Indie Pop",
+    "notable_works": ["Fool's Gold", "Ballroom", "Constellation"],
+    "active_years": "2016-present",
+    "origin_city": "Sydney",
+    "awards": ["ARIA nominations"],
+    "description": "Indie pop artist with dreamy soundscapes"
+  },
+  {
+    "name": "Cloves",
+    "birth_year": 1996,
+    "genre": "Alternative Pop",
+    "notable_works": ["Don't Forget About Me", "Frail Love", "Bringing the House Down"],
+    "active_years": "2015-present",
+    "origin_city": "Melbourne",
+    "awards": ["ARIA nominations"],
+    "description": "Alternative pop singer with haunting vocals"
+  },
+  {
+    "name": "Beddy Rays",
+    "birth_year": 2017,
+    "genre": "Garage Rock",
+    "notable_works": ["Sobercoaster", "If Only", "Rack 'Em Up"],
+    "active_years": "2017-present",
+    "origin_city": "Brisbane",
+    "awards": ["ARIA nominations"],
+    "description": "Garage rock trio with high-energy sound"
+  },
+  {
+    "name": "Daine",
+    "birth_year": 2001,
+    "genre": "Hyperpop/Emo",
+    "notable_works": ["Picking Flowers", "Sleep Forever", "Red"],
+    "active_years": "2020-present",
+    "origin_city": "Melbourne",
+    "awards": ["Triple J Unearthed"],
+    "description": "Filipino-Australian artist blending emo, hardcore, and trap influences into hyperpop"
+  }
+]
+
