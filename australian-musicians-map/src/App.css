@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.map-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Stats Panel */
+.stats-panel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  z-index: 1000;
+  max-width: 300px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.stats-panel h2 {
+  font-size: 1.5rem;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #3b82f6;
+  padding-bottom: 10px;
+}
+
+.stats {
+  margin-bottom: 20px;
+}
+
+.stats p {
+  margin: 8px 0;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.stats strong {
+  color: #1f2937;
+}
+
+.genre-legend h3 {
+  font-size: 1.1rem;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.genre-legend ul {
+  list-style: none;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.genre-legend li {
+  margin: 6px 0;
+}
+
+.genre-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Popup Styles */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  padding: 0;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.popup-content {
+  padding: 15px;
+}
+
+.popup-content h3 {
+  color: #1a1a1a;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 8px;
+}
+
+.musician-count {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.musicians-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.musician-item {
+  background: #f9fafb;
+  border-left: 4px solid #3b82f6;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.musician-item:hover {
+  background: #eff6ff;
+  transform: translateX(2px);
+}
+
+.musician-item h4 {
+  color: #1f2937;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.genre {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.notable-works {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.notable-works strong {
+  color: #1f2937;
+}
+
+.active-years {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  margin: 5px 0;
+}
+
+.awards {
+  font-size: 0.9rem;
+  color: #059669;
+  margin-top: 8px;
+  padding: 6px;
+  background: #d1fae5;
+  border-radius: 4px;
+}
+
+/* Scrollbar Styling */
+.musicians-list::-webkit-scrollbar,
+.genre-legend ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+.musicians-list::-webkit-scrollbar-track,
+.genre-legend ul::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.musicians-list::-webkit-scrollbar-thumb,
+.genre-legend ul::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 4px;
+}
+
+.musicians-list::-webkit-scrollbar-thumb:hover,
+.genre-legend ul::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .stats-panel {
+    top: 10px;
+    right: 10px;
+    max-width: calc(100% - 20px);
+    max-height: 40vh;
+  }
+
+  .leaflet-popup-content-wrapper {
+    min-width: 250px;
+  }
+
+  .popup-content h3 {
+    font-size: 1.1rem;
+  }
+}
