@@ -91,7 +91,7 @@ const MusiciansMap = () => {
       >
         <TileLayer
           attribution='&copy; <a href="https://stamen.com/">Stamen Design</a>'
-          url="https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg"
+          url="https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg?api_key=fdb8242e-08f1-485d-bbd5-022f61e55eff"
         />
         
         {Object.entries(musiciansByCity).map(([city, musicians]) => {
