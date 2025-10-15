@@ -17,14 +17,19 @@ L.Icon.Default.mergeOptions({
 const MusiciansMap = () => {
   const [selectedMusician, setSelectedMusician] = useState(null);
   const [selectedGenres, setSelectedGenres] = useState(new Set());
+  const [isMinimized, setIsMinimized] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
   // Get all unique genres
   const allGenres = [...new Set(musiciansData.map(m => m.genre))].sort();
 
-  // Filter musicians by selected genres
-  const filteredMusicians = selectedGenres.size === 0 
-    ? musiciansData 
-    : musiciansData.filter(musician => selectedGenres.has(musician.genre));
+  // Filter musicians by selected genres and search query
+  const filteredMusicians = musiciansData.filter(musician => {
+    const matchesGenre = selectedGenres.size === 0 || selectedGenres.has(musician.genre);
+    const matchesSearch = searchQuery === '' || 
+      musician.name.toLowerCase().includes(searchQuery.toLowerCase());
+    return matchesGenre && matchesSearch;
+  });
 
   // Group filtered musicians by city
   const musiciansByCity = filteredMusicians.reduce((acc, musician) => {
@@ -50,6 +55,7 @@ const MusiciansMap = () => {
   // Clear all filters
   const clearFilters = () => {
     setSelectedGenres(new Set());
+    setSearchQuery('');
   };
 
 
@@ -84,8 +90,8 @@ const MusiciansMap = () => {
         scrollWheelZoom={true}
       >
         <TileLayer
-          attribution='&copy; <a href="https://carto.com/">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+          attribution='&copy; <a href="https://stamen.com/">Stamen Design</a>'
+          url="https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg"
         />
         
         {Object.entries(musiciansByCity).map(([city, musicians]) => {
@@ -148,36 +154,62 @@ const MusiciansMap = () => {
 
 
               {/* Filter Panel */}
-      <div className="stats-panel">
-        <h2>Australian Musicians Map</h2>
-        <div className="stats">
-          <p><strong>Showing:</strong> {filteredMusicians.length} of {musiciansData.length} musicians</p>
-          <p><strong>Cities:</strong> {Object.keys(musiciansByCity).length}</p>
-          {selectedGenres.size > 0 && (
-            <button className="clear-filters-btn" onClick={clearFilters}>
-              Clear Filters ({selectedGenres.size})
+      <div className={`stats-panel ${isMinimized ? 'minimized' : ''}`}>
+        <div className="panel-header">
+          <h2>Australian Musicians Map</h2>
+          <div className="window-controls">
+            <button 
+              className="minimize-btn"
+              onClick={() => setIsMinimized(!isMinimized)}
+              title={isMinimized ? "Maximize" : "Minimize"}
+            >
+              {isMinimized ? '□' : '−'}
             </button>
-          )}
-        </div>
-        
-        <div className="genre-filter">
-          <h3>Filter by Genre</h3>
-          <div className="genre-checkboxes">
-            {allGenres.map(genre => (
-              <label key={genre} className="genre-checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={selectedGenres.has(genre)}
-                  onChange={() => toggleGenre(genre)}
-                  className="genre-checkbox"
-                />
-                <span className={`genre-badge ${selectedGenres.has(genre) ? 'selected' : ''}`}>
-                  {genre}
-                </span>
-              </label>
-            ))}
           </div>
         </div>
+        {!isMinimized && (
+          <>
+            {/* Search Bar */}
+            <div className="search-section">
+              <input
+                type="text"
+                placeholder="Search artists..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="search-input"
+              />
+            </div>
+
+            <div className="stats">
+              <p><strong>Showing:</strong> {filteredMusicians.length} of {musiciansData.length} musicians</p>
+              <p><strong>Cities:</strong> {Object.keys(musiciansByCity).length}</p>
+              {(selectedGenres.size > 0 || searchQuery !== '') && (
+                <button className="clear-filters-btn" onClick={clearFilters}>
+                  Clear Filters ({selectedGenres.size + (searchQuery !== '' ? 1 : 0)})
+                </button>
+              )}
+            </div>
+            
+            <div className="genre-filter">
+              <h3>Filter by Genre</h3>
+              <div className="genre-checkboxes">
+                {allGenres.map(genre => (
+                  <label key={genre} className="genre-checkbox-label">
+                    <input
+                      type="checkbox"
+                      checked={selectedGenres.has(genre)}
+                      onChange={() => toggleGenre(genre)}
+                      className="genre-checkbox"
+                    />
+                    <span className={`genre-badge ${selectedGenres.has(genre) ? 'selected' : ''}`}>
+                      {genre}
+                    </span>
+                  </label>
+                ))}
+              </div>
+            </div>
+          </>
+        )}
 
       </div>
     </div>

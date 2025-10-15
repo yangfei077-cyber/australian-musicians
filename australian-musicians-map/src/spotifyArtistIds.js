@@ -30,7 +30,7 @@ export const spotifyArtistIds = {
   "John Farnham": "0ECfNFhT4Bu6AsNYj6Yt6c",
   "Delta Goodrem": "2g3fa7fGdLrq8RvfxIG2DA",
   "Jessica Mauboy": "6rHWAH6F4mr2AViSxMV413",
-  "Missy Higgins": "6zwvKusBTrLlUoEK5aIaxW",
+  "Missy Higgins": "6aP8ry8w3bSNyfyqhE8rGf",
   "Silverchair": "2i7NgLxqkUZ1v2c4rWGcd5",
   "Wolfmother": "5yEtAZ4mpN6t7BXi9t5cD8",
   "Empire of the Sun": "5XKp3UyavIBUeu2Wn9i3LL",
