@@ -4,6 +4,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import musiciansData from '../australian_musicians.json';
 import { getCoordinates } from '../cityCoordinates';
+import { getSpotifyArtistUrl } from '../spotifyArtistIds';
 
 // Fix for default marker icon
 delete L.Icon.Default.prototype._getIconUrl;
@@ -15,9 +16,18 @@ L.Icon.Default.mergeOptions({
 
 const MusiciansMap = () => {
   const [selectedMusician, setSelectedMusician] = useState(null);
+  const [selectedGenres, setSelectedGenres] = useState(new Set());
 
-  // Group musicians by city
-  const musiciansByCity = musiciansData.reduce((acc, musician) => {
+  // Get all unique genres
+  const allGenres = [...new Set(musiciansData.map(m => m.genre))].sort();
+
+  // Filter musicians by selected genres
+  const filteredMusicians = selectedGenres.size === 0 
+    ? musiciansData 
+    : musiciansData.filter(musician => selectedGenres.has(musician.genre));
+
+  // Group filtered musicians by city
+  const musiciansByCity = filteredMusicians.reduce((acc, musician) => {
     const city = musician.origin_city;
     if (!acc[city]) {
       acc[city] = [];
@@ -26,8 +36,41 @@ const MusiciansMap = () => {
     return acc;
   }, {});
 
+  // Handle genre selection
+  const toggleGenre = (genre) => {
+    const newSelectedGenres = new Set(selectedGenres);
+    if (newSelectedGenres.has(genre)) {
+      newSelectedGenres.delete(genre);
+    } else {
+      newSelectedGenres.add(genre);
+    }
+    setSelectedGenres(newSelectedGenres);
+  };
+
+  // Clear all filters
+  const clearFilters = () => {
+    setSelectedGenres(new Set());
+  };
+
+
   // Australia center coordinates
   const australiaCenter = [-25.2744, 133.7751];
+  
+  // Custom marker icon
+  const customIcon = new L.DivIcon({
+    html: `<div style="
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 3px solid white;
+      box-shadow: 0 4px 8px rgba(102, 126, 234, 0.4);
+      position: relative;
+    "></div>`,
+    className: 'custom-marker',
+    iconSize: [20, 20],
+    iconAnchor: [10, 10]
+  });
 
   return (
     <div className="map-container">
@@ -35,10 +78,14 @@ const MusiciansMap = () => {
         center={australiaCenter} 
         zoom={5} 
         style={{ height: '100vh', width: '100%' }}
+        minZoom={4}
+        maxZoom={10}
+        zoomControl={true}
+        scrollWheelZoom={true}
       >
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://carto.com/">CARTO</a>'
+          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
         />
         
         {Object.entries(musiciansByCity).map(([city, musicians]) => {
@@ -48,6 +95,7 @@ const MusiciansMap = () => {
             <Marker 
               key={city} 
               position={[coords.lat, coords.lng]}
+              icon={customIcon}
               eventHandlers={{
                 click: () => setSelectedMusician({ city, musicians })
               }}
@@ -61,6 +109,26 @@ const MusiciansMap = () => {
                       <div key={idx} className="musician-item">
                         <h4>{musician.name}</h4>
                         <p className="genre">{musician.genre}</p>
+                        
+                        {/* Spotify Artist Profile link */}
+                        {musician.notable_works && musician.notable_works.length > 0 && (
+                          <div className="stream-links">
+                            <div 
+                              className="stream-link spotify"
+                              style={{ cursor: 'pointer' }}
+                              onMouseDown={(e) => {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                const url = getSpotifyArtistUrl(musician.name);
+                                console.log('Opening direct Spotify artist profile:', url);
+                                window.open(url, '_blank');
+                              }}
+                            >
+                              🎵 Artist Profile
+                            </div>
+                          </div>
+                        )}
+                        
                         <p className="notable-works">
                           <strong>Notable works:</strong> {musician.notable_works.join(', ')}
                         </p>
@@ -76,25 +144,41 @@ const MusiciansMap = () => {
             </Marker>
           );
         })}
-      </MapContainer>
+              </MapContainer>
 
-      {/* Legend/Stats Panel */}
+
+              {/* Filter Panel */}
       <div className="stats-panel">
         <h2>Australian Musicians Map</h2>
         <div className="stats">
-          <p><strong>Total Musicians:</strong> {musiciansData.length}</p>
+          <p><strong>Showing:</strong> {filteredMusicians.length} of {musiciansData.length} musicians</p>
           <p><strong>Cities:</strong> {Object.keys(musiciansByCity).length}</p>
+          {selectedGenres.size > 0 && (
+            <button className="clear-filters-btn" onClick={clearFilters}>
+              Clear Filters ({selectedGenres.size})
+            </button>
+          )}
         </div>
-        <div className="genre-legend">
-          <h3>Genres</h3>
-          <ul>
-            {[...new Set(musiciansData.map(m => m.genre))].sort().map(genre => (
-              <li key={genre}>
-                <span className="genre-badge">{genre}</span>
-              </li>
+        
+        <div className="genre-filter">
+          <h3>Filter by Genre</h3>
+          <div className="genre-checkboxes">
+            {allGenres.map(genre => (
+              <label key={genre} className="genre-checkbox-label">
+                <input
+                  type="checkbox"
+                  checked={selectedGenres.has(genre)}
+                  onChange={() => toggleGenre(genre)}
+                  className="genre-checkbox"
+                />
+                <span className={`genre-badge ${selectedGenres.has(genre) ? 'selected' : ''}`}>
+                  {genre}
+                </span>
+              </label>
             ))}
-          </ul>
+          </div>
         </div>
+
       </div>
     </div>
   );
